@@ -1,0 +1,16 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 4rem 8rem;
+  box-shadow: 0px -1px 14px 0px black;;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.header{
+  background-color: rgb(52, 15, 86);
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}

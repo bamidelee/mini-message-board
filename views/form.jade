@@ -1,0 +1,13 @@
+extends layout
+
+
+block content
+    h1= title
+    p Welcome to #{title}
+    a(href= '/') back
+    form(method= 'post' action= '/new')
+        label(for= 'user') User
+            input(type= 'text' name= 'user')
+        label(for= 'text') Message
+            input(type= 'text' name= 'text')
+        button(type= 'submit') Submit
